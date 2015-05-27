@@ -1,2 +1,27 @@
 Endpoints are exposed to the UI
 
+1. Got to let the JS library load,
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+
+2. That should intiate the call back to a function which sets the endpoints , which we have declared ,
+gapi.client.load('helloworldendpoints', 'v1', loadCallback, rootpath);
+
+
+
+3. Also we enable some event handlers to use endpoints functions
+btn.onclick= function(){greetGenerically();};
+
+
+4. This is how  they are going to call the endpoint function,
+var request = gapi.client.helloworldendpoints.sayHelloByName({'name': name});
+request.execute(sayHelloCallback);
+
+
+5. Obviously there will be a callback to handle all the objects which will be returned by the endpoint function ,
+Which is just going to be a Object
+response.message
+
+
+
+ 
