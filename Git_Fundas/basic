@@ -1,0 +1,17 @@
+Intilizes the repo
+git init
+
+git status
+
+adding the files to the staging area
+git add *
+
+commit
+git commit
+
+which branch are u on
+git branch
+
+any remote repo associated
+git remote
+
