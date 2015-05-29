@@ -23,5 +23,28 @@ Which is just going to be a Object
 response.message
 
 
+You can also build archetypes ,
+mvn archetype:generate
+
+Datastore
+Database in the cloud
+
+kinds (classes) , entity (Objects) , property ,
+
+what is this annotation stuff ?
+
+Data  store is going to have a lot of properties ,
+
+Datastore stores Entities ,
+They are recognised by key values
+
+Now the point is how to save the entities in the data store ,
+u will use objectify ,
+
+Right now i just understand you can store some fundas in Datastore by Key and retrieve by the same key,
+
+Advanced fundae about datastore
+ 
+
 
  
